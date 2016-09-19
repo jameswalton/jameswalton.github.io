@@ -8,7 +8,7 @@ categories:
 - datomic
 - testing
 ---
-There’s amazing functionality for unit or integration testing Datomic ships with the datomic.api library. [d/with](http://docs.datomic.com/clojure/#datomic.api/with) applies transaction data to a provided database without mutating the underlying source. This gives the ability to ask "what if?" style questions to existing data, but also facilitates setting an instance of a Datomic database to a known state. This can then be used to test queries and pulls that return expected values.
+There’s amazing functionality for unit or integration testing Datomic queries and pulls that ships with the datomic.api library. [d/with](http://docs.datomic.com/clojure/#datomic.api/with) applies transaction data to a provided database without mutating the underlying source. This gives the ability to ask "what if?" style questions to existing data, but also facilitates setting an instance of a Datomic database to a known state. This can then be used to test queries and pulls that return expected values.
 
 A simple contrived example of testing a query that returns the people over the age of 30:
 
