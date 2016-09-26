@@ -45,4 +45,12 @@ Another example is the use of w/with and Datomic pull syntax to get the friends 
          (d/pull db [{:user/friends [:user/id]}] [:user/email "bob@example.com"]))))
 ```
 
+As you can see from the examples above, d/with takes a collection of transaction data. Providing you're separating the creation of transaction data from the transacting then d/with is a great place to test functions that create transaction data. You can also apply the transaction data to an existing database and ask _what if_ questions (projections).
+
+```clojure
+(-> (d/db conn)
+    (d/with [(create-comment-tx {:article/id "933b1d81-14e4-409a-a6c4-70e75dc61150"
+                                 :comment/text "This is a great article!"})]))
+```
+
 I create an in-memory Datomic database and seed it for testing purposes. My test suite runs (unscientifically measured) quickly and I have confidence in my code.
