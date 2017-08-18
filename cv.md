@@ -6,10 +6,10 @@ permalink: /cv/
 
 ## Technical skills
 
-Elixir, Phoenix, Elm
-ClojureScript, Re-frame
-Kafka, Clojure, Kafka Streams
-Ruby, Rails, RSpec, PHP, Objective-C, HTML. CSS
+* Elixir, Phoenix, Elm
+* Kafka, Clojure, Kafka Streams
+* ClojureScript, Re-frame
+* Ruby, Rails, RSpec, PHP, Objective-C, HTML. CSS
 
 
 ## Engineering experience
@@ -18,8 +18,8 @@ Ruby, Rails, RSpec, PHP, Objective-C, HTML. CSS
 #### Senior Software Engineer (inc. Technical Lead)
 Jun 2013 – Present
 
-- Worked on ClojureScript UI for internal financial operations teams
 - Lead team that built global applications for allocating loans and placing orders based on eligibility criteria and portfolio concentration limits using Kafka and Clojure.
+- Worked on ClojureScript UI for internal financial operations teams
 - Prototype the use of Kafka and Clojure in the Funding Circle stack to handle cash-in.
 - Worked on iOS application, taking over from previous external agency and building in-house team.
 
