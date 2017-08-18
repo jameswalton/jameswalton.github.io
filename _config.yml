@@ -16,7 +16,7 @@
 title: James Walton
 email: hi@jamespw.com
 description: > # this means to ignore newlines until "baseurl:"
-  Software Engineer with a love of Clojure
+  Software Engineer with a love of Elixir & Clojure
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://jamespw.com" # the base hostname & protocol for your site
 twitter_username: jamespw

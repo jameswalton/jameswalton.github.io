@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Software engineer with a passion for Clojure and Datomic.
+Software engineer with a passion for Elixir and Clojure.
 
 I've worked on a variety of projects and used a range of technologies to collaboratively build products that deliver value.
 
